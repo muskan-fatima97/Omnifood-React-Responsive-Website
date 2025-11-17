@@ -28,7 +28,6 @@ React Router (if added)	Navigation
 JavaScript (ES6+)	Logic
 📸 Preview
 
-(You can add screenshots if you want)
 
 🏗️ Project Setup
 
