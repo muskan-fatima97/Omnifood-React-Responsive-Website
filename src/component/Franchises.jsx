@@ -4,28 +4,28 @@ import "../App.css";
 const cities = [
   {
     name: "Lisbon",
-    image: "/lisbon-3.jpg",
+    image: "./lisbon-3.jpg",
     eaters: "1,600+ happy eaters",
     chefs: "60+ top chefs",
     twitter: "@omnifood_lx"
   },
   {
     name: "San Francisco",
-    image: "/london.jpg",
+    image: "./london.jpg",
     eaters: "3,700+ happy eaters",
     chefs: "160+ top chefs",
     twitter: "@omnifood_sf"
   },
   {
     name: "Berlin",
-    image: "/berlin.jpg",
+    image: "./berlin.jpg",
     eaters: "2,300+ happy eaters",
     chefs: "110+ top chefs",
     twitter: "@omnifood_berlin"
   },
   {
     name: "London",
-    image: "/san-francisco.jpg",
+    image: "./san-francisco.jpg",
     eaters: "1,200+ happy eaters",
     chefs: "50+ top chefs",
     twitter: "@omnifood_london"
@@ -44,9 +44,9 @@ const FranchiSection = () => {
 
             <h3 className="city-name">{city.name}</h3>
             <ul className="city-details">
-              <li><img src="/person-icon.png" alt="" /> {city.eaters}</li>
-              <li><img src="/star.png" alt="" /> {city.chefs}</li>
-              <li> <img src="/twitter.png" alt="" /> {city.twitter}</li>
+              <li><img src="./person-icon.png" alt="" /> {city.eaters}</li>
+              <li><img src="./star.png" alt="" /> {city.chefs}</li>
+              <li> <img src="./twitter.png" alt="" /> {city.twitter}</li>
             </ul>
           </div>
         ))}

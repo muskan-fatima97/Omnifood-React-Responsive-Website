@@ -5,17 +5,17 @@ const reviews = [
   {
     name: "Alberto Duncan",
     text: "Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!",
-    image: "/customer-1.jpg"
+    image: "./customer-1.jpg"
   },
   {
     name: "Joana Silva",
     text: "Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!",
-    image: "/customer-2.jpg"
+    image: "./customer-2.jpg"
   },
   {
     name: "Milton Chapman",
     text: "I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!",
-    image: "/customer-3.jpg"
+    image: "./customer-3.jpg"
   }
 ];
 

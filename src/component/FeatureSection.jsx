@@ -15,7 +15,7 @@ const FeatureSection = () => {
       </div>
       <div class="features-grid">
         <div class="feature-box">
-          <img src="/infinity.png" alt="Infinity" />
+          <img src="./infinity.png" alt="Infinity" />
           <h3>UP TO 365 DAYS/YEAR</h3>
           <p>
             Never cook again! We really mean that. Our subscription plans include up to
@@ -24,7 +24,7 @@ const FeatureSection = () => {
           </p>
         </div>
         <div class="feature-box">
-          <img src="/clock.png" alt="Clock" />
+          <img src="./clock.png" alt="Clock" />
           <h3>READY IN 20 MINUTES</h3>
           <p>
             You're only twenty minutes away from delicious and super healthy meals
@@ -33,7 +33,7 @@ const FeatureSection = () => {
           </p>
         </div>
         <div class="feature-box">
-          <img src="/leaf.png" alt="Organic" />
+          <img src="./leaf.png" alt="Organic" />
           <h3>100% ORGANIC</h3>
           <p>
             All our vegetables are fresh, organic and local. Animals are raised without
@@ -42,7 +42,7 @@ const FeatureSection = () => {
           </p>
         </div>
         <div class="feature-box">
-          <img src="/bag.png" alt="Bag" />
+          <img src="./bag.png" alt="Bag" />
           <h3>ORDER ANYTHING</h3>
           <p>
             We don't limit your creativity, which means you can order whatever you feel

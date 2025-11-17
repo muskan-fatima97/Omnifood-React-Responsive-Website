@@ -29,22 +29,21 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${showNav ? "nav-show" : "nav-hide"}`}>
       <Link to="/">
-        <img src="/logo-white.png" alt="App Logo" />
+        <img src="./logo-white.png" alt="App Logo" />
       </Link>
 
-      {/* MOBILE MENU */}
       <ul className={menuOpen ? "active" : ""}>
         <li><Link to="/">Food Delivery</Link></li>
         <li><Link to="/">How it Works</Link></li>
         <li><Link to="/">Our Cities</Link></li>
         <li><Link to="/">Sign Up</Link></li>
       </ul>
-
-      {/* HAMBURGER BUTTON */}
-      <div
-        className={`hamburger ${menuOpen ? "active" : ""}`}
-        onClick={() => setMenuOpen(!menuOpen)} 
-      ></div>
+      <img
+        src={menuOpen ? "./menu-close.png" : "./menu-open.png"}
+        alt="menu toggle"
+        className="menu-icon"
+        onClick={() => setMenuOpen(!menuOpen)}
+      />
     </nav>
   );
 };
