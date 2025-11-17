@@ -1,7 +1,8 @@
 {
+  
+  "homepage": "https://muskan-fatima97.github.io/Omnifood-React-Responsive-Website",
   "name": "taskthree-omnifood",
   "private": true,
-  "homepage": "https://muskan-fatima97.github.io/Omnifood-React-Responsive-Website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
