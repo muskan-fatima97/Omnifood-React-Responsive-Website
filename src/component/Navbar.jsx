@@ -9,16 +9,18 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
-      if (currentScroll <= 10) {
-        setShowNav(true);
-        lastScrollY.current = currentScroll;
-        return;
-      }
+
+      // Hide navbar when scrolling DOWN
       if (currentScroll > lastScrollY.current) {
         setShowNav(false);
-      } else {
-        setShowNav(true);
       }
+      // Show only when scrolling UP AND close to top
+      else {
+        if (currentScroll <= 90) {   // 80 = your navbar height
+          setShowNav(true);
+        }
+      }
+
       lastScrollY.current = currentScroll;
     };
 
@@ -29,9 +31,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${showNav ? "nav-show" : "nav-hide"}`}>
       <Link to="/">
-        <img src="./logo-white.png" alt="App Logo" />
+        <img src="./logo-white.png" alt="App Logo" className="logo" />
       </Link>
-
       <ul className={menuOpen ? "active" : ""}>
         <li><Link to="/">Food Delivery</Link></li>
         <li><Link to="/">How it Works</Link></li>
