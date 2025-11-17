@@ -1,16 +1,98 @@
-# React + Vite
+# Omnifood – React Landing Page (Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive landing page built in React by cloning the popular Omnifood website.
+This project was created for learning and practice, focusing on modern frontend skills and clean UI development.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Fully responsive UI
 
-## React Compiler
+🧭 Smooth navbar with scroll effects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🖼️ Organized component structure
 
-## Expanding the ESLint configuration
+🎨 Modern styling (CSS)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Assets served from the public folder
+
+📦 Built using React + Vite
+
+🔄 Clean code, reusable components
+
+📂 Tech Stack
+Technology	Purpose
+React	Component-based UI
+Vite	Fast development environment
+CSS	Styling
+React Router (if added)	Navigation
+JavaScript (ES6+)	Logic
+📸 Preview
+
+(You can add screenshots if you want)
+
+🏗️ Project Setup
+
+Clone this repository:
+
+git clone https://github.com/your-username/omnifood-react-clone.git
+
+
+Install dependencies:
+
+npm install
+
+
+Run the project:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+📁 Folder Structure
+src/
+│── components/
+│    ├── Navbar.jsx
+│    ├── Hero.jsx
+│    ├── Features.jsx
+│    ├── Meals.jsx
+│    ├── Testimonials.jsx
+│    └── Footer.jsx
+│
+│── App.jsx
+│── main.jsx
+└── styles/
+     └── global.css
+public/
+│── images/
+│── favicon.ico
+
+✔️ What I Learned
+
+How to structure a real landing page using React
+
+Better component organization
+
+Positioning, layout, and responsive design
+
+Using public folder images in React
+
+Navbar animations + scroll behavior
+
+Debugging common issues (404 images, CSS conflicts)
+
+🔮 Future Improvements
+
+Add dark mode
+
+Add animation with Framer Motion
+
+Add mobile hamburger menu
+
+Convert to TypeScript version
+
+📝 License
+
+This project is for learning and educational purposes.
